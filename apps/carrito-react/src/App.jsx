@@ -19,7 +19,7 @@ function App() {
       <div className="flex">
         <main className="shopping">
           <header>
-            <h1>Mock store</h1>
+            <h1>React Mock store</h1>
             <button
               onClick={() => {
                 setCarroDisplay(!carroDisplay);
