@@ -51,6 +51,13 @@ function App() {
           ))}
         </aside>
       </div>
+
+      <footer className="repo">
+        Github repo{" "}
+        <a href="https://github.com/SFToro/exercises/tree/main/apps/carrito-react">
+          Here
+        </a>
+      </footer>
     </>
   );
 }

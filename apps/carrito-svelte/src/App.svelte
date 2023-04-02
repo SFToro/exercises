@@ -40,4 +40,22 @@
       <CartItem {...cp} />
     {/each}
   </aside>
+  <footer>
+    Github repo <a
+      href="https://github.com/SFToro/exercises/tree/main/apps/carrito-svelte"
+      >Here</a
+    >
+  </footer>
 </div>
+
+<style>
+  footer {
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    bottom: 1rem;
+    left: 1rem;
+  }
+</style>
