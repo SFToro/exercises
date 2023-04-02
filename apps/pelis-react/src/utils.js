@@ -1,4 +1,4 @@
-const OMDB_API = import.meta.env.OMDB_API;
+const OMDB_API = import.meta.env.VITE_OMDB_API;
 
 export async function getMovies({ query, lastSearch, moviesPromise }) {
   const res = await fetch(OMDB_API + query);
