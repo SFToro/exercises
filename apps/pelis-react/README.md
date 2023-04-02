@@ -1,7 +1,7 @@
 # Fetching exercise using OMDb
 The app fetches movies based on user input with validation. 
 Implements debouncing and responsive grid
-Developped using Svelte
+Developped using React
 
 ## Requirements:
 
@@ -11,3 +11,5 @@ Developped using Svelte
 - Fetch from the given OMDb API
 - Avoid two consecutive identical searches
 - Implement search on type with debounce
+
+
