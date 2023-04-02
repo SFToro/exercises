@@ -50,7 +50,7 @@
 
 <style>
   footer {
-    position: sticky;
+    position: fixed;
     background-color: rgba(255, 255, 255, 0.7);
     width: fit-content;
     padding: 1rem;
