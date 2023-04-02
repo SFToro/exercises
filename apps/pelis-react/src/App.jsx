@@ -70,7 +70,12 @@ function App() {
         </form>
         <section style={{ display: "flex", justifyContent: "center" }}>
           {error && <h2>There is a problem: {error}</h2>}
-          {isLoading && <h2>Loading movies...</h2>}
+          {isLoading && (
+            <h2>
+              Loading movies...If it takes too long the API key might have got
+              pwned...
+            </h2>
+          )}
         </section>
         {!error && !isLoading && (
           <section className="movies">
@@ -80,6 +85,12 @@ function App() {
           </section>
         )}
       </main>
+      <footer className="repo">
+        Github repo{" "}
+        <a href="https://github.com/SFToro/exercises/tree/main/apps/pelis-react">
+          Here
+        </a>
+      </footer>
     </>
   );
 }
