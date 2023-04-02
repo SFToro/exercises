@@ -11,6 +11,12 @@ const App = () => {
 
       <h6>{error}</h6>
       {url && <img src={url} alt={`Cat saying ${fact}`} />}
+      <footer className="repo">
+        Github repo{" "}
+        <a href="https://github.com/SFToro/exercises/tree/main/apps/gatos-react">
+          Here
+        </a>
+      </footer>
     </>
   );
 };
