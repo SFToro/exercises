@@ -1,7 +1,8 @@
 # Fetching exercise using OMDb
 The app fetches movies based on user input with validation. 
-Implements debouncing and responsive grid
-Developped using React
+Implements debouncing and responsive grid.
+Developped using React.
+You can find here the version using [Svelte](https://github.com/SFToro/exercises/tree/main/apps/pelis-svelte)
 
 ## Requirements:
 

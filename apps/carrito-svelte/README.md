@@ -1,5 +1,5 @@
 # Mock e-commerce with shopping cart
-Developped using Svelte.
+Developped using Svelte. You can find here the version using [React](https://github.com/SFToro/exercises/tree/main/apps/carrito-react)
        
 E-commerce site with synced product list and cart states. Implements filtering of the product list state using  Svelte stores
 
