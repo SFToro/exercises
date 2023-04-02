@@ -1,6 +1,6 @@
-const OMDB_API = 'http://www.omdbapi.com/?apikey=3a902638&s='
+const OMDB_API = 'https://www.omdbapi.com/?apikey=3a902638&s='
 
-export async function getMovies ({ query, lastSearch, moviesPromise }) {
+export async function getMovies({ query, lastSearch, moviesPromise }) {
   const res = await fetch(OMDB_API + query)
   const results = await res.json()
   if (results.Error) throw new Error('while fetching movies')
@@ -9,7 +9,7 @@ export async function getMovies ({ query, lastSearch, moviesPromise }) {
       title: movie.Title,
       poster: movie.Poster,
       year: movie.Year,
-      id: movie.imdbID
+      id: movie.imdbID,
     }
   })
 

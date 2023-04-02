@@ -1,4 +1,4 @@
-const OMDB_API = "http://www.omdbapi.com/?apikey=3a902638&s=";
+const OMDB_API = "https://www.omdbapi.com/?apikey=3a902638&s=";
 
 export async function getMovies({ query, lastSearch, moviesPromise }) {
   const res = await fetch(OMDB_API + query);
