@@ -1,6 +1,6 @@
 # Simple remove background app using Cloudinary AI
 
->[!info]
+>[!note]
 >Clodinary API requires an API but offers a generous free tier. You can try this app yourself by cloning the repo and adding your Cloudname and API Key in an env file
 
 # Implementation
